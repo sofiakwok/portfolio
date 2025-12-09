@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react";
 import {
   Main,
   Project,
+  PersonalProjects,
   Navigation,
 } from "./components";
 import FadeIn from './components/FadeIn';
@@ -28,6 +29,7 @@ function App() {
         <FadeIn transitionDuration={700}>
             <Main/>
             <Project/>
+            <PersonalProjects/>
         </FadeIn>
     </div>
     );
